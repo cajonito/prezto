@@ -12,3 +12,9 @@ fi
 
 # Customize to your needs...
 alias rm='rmtrash'
+alias ls='exa'
+alias ll='exa -l'
+alias la='exa -la'
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
